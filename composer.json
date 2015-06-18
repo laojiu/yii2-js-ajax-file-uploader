@@ -1,0 +1,33 @@
+{
+    "name": "roman444uk/yii2-js-ajax-file-uploader",
+    "description": "JsAjaxFileUploader file upload widget for Yii2 framework",
+    "keywords": [
+        "roman444uk",
+        "yii",
+        "yii2",
+        "yii 2",
+        "widget",
+        "js",
+        "ajax",
+        "file",
+        "upload",
+        "uploader"
+    ],
+    "type": "yii2-extension",
+    "homepage": "https://github.com/roman444uk/yii2-js-ajax-file-uploader",
+    "authors": [
+        {
+            "name": "Roman Gnidenko",
+            "email": "roman444uk@mail.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "roman444uk\\jsAjaxFileUploader\\": "src"
+        }
+    }
+}
