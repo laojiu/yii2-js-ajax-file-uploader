@@ -275,7 +275,7 @@ function prepareLi(imgSrc,file,id,isUploading,errMsg){
 var _closeStopHandler = function(id,closeAnimationSpeed){
 	$('#close'+id).on('click',function(e){
 		var $li = $('#JSfileLi'+id);
-		$li.slideUp(closeAnimationSpeed,function(){$li.remove();});
+		//$li.slideUp(closeAnimationSpeed,function(){$li.remove();});
 	});
 };
 var _trimFileName = function(string,length){

@@ -40,7 +40,7 @@ class JsAjaxFileUploader extends \yii\base\Widget
             'id' => $id
         ]);
         
-        //$this->registerClientScript();
+        $this->registerClientScript();
     }
     
     /**
